@@ -7,14 +7,10 @@ The claims value provider allows binding a controller parameter to a claim that 
 
 ## Usage
 
-#### project.json
+#### .csproj
 
-```json
-{
-  "dependencies": {
-    "AspNetCore.ClaimsValueProvider": "1.0.0",
-  }
-}
+```xml
+<PackageReference Include="AspNetCore.ClaimsValueProvider.Fork" Version="2.0.0" />
 ```
 
 #### Startup.cs
